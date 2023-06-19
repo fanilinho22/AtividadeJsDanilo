@@ -7,7 +7,7 @@ function repetir(e, q) {
     
     return resultado;
   }
-  var repeticoes1 = repetir("o jogo", 2);
+  var repeticoes1 = repetir("texto foda", 2);
   console.log(repeticoes1); 
   
   var repeticoes2 = repetir(2, 4);
