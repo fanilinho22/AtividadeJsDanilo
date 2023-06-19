@@ -4,7 +4,7 @@ function inverterValor(p){
     } else if (typeof p === 'number'){
         return -p
     } else{
-        return "O parâmetro passado não é do tipo boolean ou number, mas sim do tipo " +typeof p
+        return "Voce so pede digitar 1 boolean e 1 number" +typeof p
     }
 }
 
@@ -16,6 +16,6 @@ var valorNumber = 1
 var resultNumber = inverterValor(valorBoolean)
 console.log(resultNumber)
 
-var valorTxt = "O jogo"
+var valorTxt = "texto foda"
 var resultTxt = inverterValor(valorTxt)
 console.log(resultTxt)
