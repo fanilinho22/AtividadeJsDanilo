@@ -20,9 +20,9 @@ function melhoresAlunos(e) {
     return melhorDesempenho;
   }
   var a = {
-    ash: [8, 7.6, 8.9, 6],
-    vitinho: [9, 6.6, 7.9, 8],
-    felipe: [7, 7, 8, 9]
+    daniel: [8, 7.6, 8.9, 6],
+    danielDoMultiveros: [9, 6.6, 7.9, 8],
+    DanielDoOutroMultiverso: [7, 7, 8, 9]
   };
   
   var resultado = melhoresAlunos(a);
