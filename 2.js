@@ -1,10 +1,10 @@
 function maiorOuIgual(n1, n2){
     if(n1>n2){
-        return "o primeiro é maior que o segundo";
+        return "Primeiro numero maior que o ultimo";
     }else if(n1==n2){
-        return "o primeiro número é igual ao segundo"
+        return "Ambos sao iguais"
     }else{
-        return "o primeiro número é menor que o segundo"
+        return "Primeiro numero menor que o ultimo"
     }
 }
 
