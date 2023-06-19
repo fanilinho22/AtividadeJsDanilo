@@ -1,6 +1,6 @@
 function segundoMaior(array) {
   if (array.length < 2) {
-    return "O array precisa ter pelo menos dois números.";
+    return "Precisa de minimo dois numeros";
   }
   
   var max1 = -Infinity;
@@ -16,7 +16,7 @@ function segundoMaior(array) {
   }
   
   if (max2 === -Infinity) {
-    return "Não foi encontrado segundo maior número no array.";
+    return "Nao existe o segundo maior valor da array";
   } else {
     return max2;
   }
