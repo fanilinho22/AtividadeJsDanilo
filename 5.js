@@ -1,6 +1,6 @@
 function semOperador(num1, num2) {
     if (num1 < 0 || num2 < 0) {
-        return "Erro: Os números devem ser não negativos.";
+        return "Numero nao pode ser possitivo";
     }
 
     var resultado = 0;
